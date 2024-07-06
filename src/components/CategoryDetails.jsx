@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import API_URL from '../API';
 import { useOutletContext, useParams } from 'react-router-dom';
-import { StyledCategoryDetails } from '../styles/PostsPage.styled';
+import { StyledResourceDetails } from '../styles/PostsPage.styled';
 import { useFetchPageData } from '../hooks';
 import { useRef, useState } from 'react';
 import FollowCategoryButton from './FollowCategoryButton';
+import ResourceDetailsTop from './ResourceDetailsTop';
 import CategoryStats from './CategoryStats';
 import { followOrUnfollowCategory } from '../helpers';
 import { MdOutlineErrorOutline } from 'react-icons/md';
-import CategoryDetailsTop from './CategoryDetailsTop';
 
 function CategoryDetails({ loadingPosts }) {
   const [user, setUser] = useOutletContext();
@@ -57,8 +57,8 @@ function CategoryDetails({ loadingPosts }) {
     const { description } = category;
 
     return (
-      <StyledCategoryDetails>
-        <CategoryDetailsTop category={category} />
+      <StyledResourceDetails>
+        <ResourceDetailsTop resourceType="category" object={category} />
         <p className="description">{description}</p>
         {errorMessage && (
           <div className="error-message-wrapper">
@@ -75,7 +75,7 @@ function CategoryDetails({ loadingPosts }) {
             handleCategoryButtonClick={handleCategoryButtonClick}
           />
         </div>
-      </StyledCategoryDetails>
+      </StyledResourceDetails>
     );
   }
 }
