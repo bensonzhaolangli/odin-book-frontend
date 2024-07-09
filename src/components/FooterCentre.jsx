@@ -6,9 +6,9 @@ function FooterCentre() {
   return (
     <StyledFooterCentre>
       <p>by</p>
-      <p className="dev-name">dziubenzo</p>
+      <p className="dev-name">bensonzhaolangli</p>
       <a
-        href="https://github.com/dziubenzo/"
+        href="https://github.com/bensonzhaolangli/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Developer's GitHub page, opens in new tab"

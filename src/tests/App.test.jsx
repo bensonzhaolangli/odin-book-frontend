@@ -248,7 +248,7 @@ describe('FooterCentre', () => {
 
     expect(gitHubPageLink).toHaveAttribute(
       'href',
-      'https://github.com/dziubenzo/',
+      'https://github.com/bensonzhaolangli/',
     );
   });
 });
