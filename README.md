@@ -2,13 +2,6 @@
 
 <h2 align="center">Meet Aurora</h2>
 
-<p align="center">
-  <img src="https://res.cloudinary.com/dvhkp9wc6/image/upload/v1721036301/odin_book/wlmwfbe3ro623odzogb9.png" width="300" height="300" title="App - Welcome Page - Dark Theme">
-  <img src="https://res.cloudinary.com/dvhkp9wc6/image/upload/v1721036301/odin_book/bjpryqtnkwxgx7i0qaky.png" width="300" height="300" title="App - User Details Page - Dark Theme">
-  <img src="https://res.cloudinary.com/dvhkp9wc6/image/upload/v1721036301/odin_book/eslijryvdohdsawsd3sr.png" width="300" height="300" title="App - Posts Page With User Popover - Light Theme">
-  <img src="https://res.cloudinary.com/dvhkp9wc6/image/upload/v1721036301/odin_book/b3kdzf4u0m0xmnuoimrf.png" width="300" height="300" title="App - Profile Page - Light Theme">
-</p>
-
 A Reddit-inspired social news aggregation and content rating app featuring three types of posts (text, image and video), comments, categories and likes.
 
 ## Project Revisit (Jan 2025)
